@@ -1,7 +1,8 @@
 import csv
 import json
 import datetime
-
+import os
+import socket
 
 def skip_x_element_in_list(lista, index_x):
     """Funkcja pomija kolumne C z danych wejsciowych"""
@@ -28,10 +29,4 @@ Iplist = []
 for i in data:
     Iplist.append(i[1])
 
-print(Iplist)
-
-
-#element_0 = (data[0])
-#print(element_0[0])
-
-#print('# Report {} was generated!'.format(sciezka_raport))
+#print(Iplist)
